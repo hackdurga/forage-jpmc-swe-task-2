@@ -8,8 +8,8 @@ import './App.css';
  */
 interface IState {
   data: ServerRespond[],
+  showGraph:boolean,
 }
-
 /**
  * The parent element of the react app.
  * It renders title, button and Graph react element.
